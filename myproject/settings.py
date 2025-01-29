@@ -68,7 +68,7 @@ MIDDLEWARE = [
     'social_django.middleware.SocialAuthExceptionMiddleware',
     
 ]
-SOCIAL_AUTH_REDIRECT_IS_HTTPS = False  # Set to True if using HTTPS
+# SOCIAL_AUTH_REDIRECT_IS_HTTPS = False  # Set to True if using HTTPS
 ROOT_URLCONF = "myproject.urls"
 
 TEMPLATES = [
